@@ -1,5 +1,6 @@
 # MAPF_Problem
 Seminar project
+
 Team: Lkhagvasuren Rentsenbyamba, Felix Kratzsch 
 ## Project: MAPF with pruning in ASP
 ### Goal
