@@ -10,5 +10,5 @@ Using ASP to simplify and solve MAPF instances.
 - You should work in a group of two. Make a git repo for your group containing your encoding and a Readme containing the members of your group, a description of your encoding, and other interesting information (how to use it, unsolvable instances, etc). Send me a link to your repo as soon as possible, so I can take a look and help if needed.
 - The deadline is the 13th of February.
 ### Resources
-**MIF:** [a link](https://github.com/krr-up/mapf-instance-format)
-**Asprilo vizualiser:** [a link](https://asprilo.github.io/visualizer/)
+**MIF:** (https://github.com/krr-up/mapf-instance-format)
+**Asprilo vizualiser:** (https://asprilo.github.io/visualizer/)
