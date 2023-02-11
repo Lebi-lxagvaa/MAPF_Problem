@@ -6,12 +6,16 @@ Team: Lkhagvasuren Rentsenbyamba, Felix Kratzsch
 ### Goal
 Using ASP to simplify and solve MAPF instances.
 
-### Details
-- You need to create an ASP encoding solving MAPF instances (in the mif format). Your encoding must define a subgraph of the instance and non-conflicting paths for the agents on this subgraph. The use of multiple encodings, python scripts, or multi-shot solving is allowed but discouraged.
-- You will be given some instances to test on. You don't need a complete encoding to validate the project.
-- You should work in a group of two. Make a git repo for your group containing your encoding and a Readme containing the members of your group, a description of your encoding, and other interesting information (how to use it, unsolvable instances, etc). Send me a link to your repo as soon as possible, so I can take a look and help if needed.
-- The deadline is the 13th of February.
-### Resources
-**MIF:** https://github.com/krr-up/mapf-instance-format
+### Encoding
+ Our encoding was based on the paper [1], which we discussed in the seminar. All given instances are solved by our solver with and without pruning. We considered a vertex and edge (swap) conflicts that agents are not allowed to possess a same vertex or swapping positions at same time. 
+ For the prunning, we did not take the idea of the paper [1]. Instead, we just implemented reachable vertices from start positions to end postions, so that we can constrain the unreacheable verticies. Interestingly, the given instances are solved with the pruning slower than the solver without pruning. May be, it is because of the given instances are not enough to prune. 
 
+### Usages
+
+### References 
+Husár, M., Švancara, J., Obermeier, P., Bart ́ak, R., Schaub, T.: Reduction-based
+Solving of Multi-agent Pathfinding on Large Maps Using Graph Pruning. AAMAS
+2022, May, Online. (2022).
+
+### Sources
 **Asprilo vizualiser:** https://asprilo.github.io/visualizer/
