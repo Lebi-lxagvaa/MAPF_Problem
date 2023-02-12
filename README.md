@@ -9,9 +9,10 @@ Using ASP to simplify and solve MAPF instances.
 ### Encoding
 Our encoding was based on the paper [1], which we discussed in the seminar. All given instances are solved by our solver with and without pruning. We considered a vertex and edge (swap) conflicts that agents are not allowed to possess a same vertex or swap positions at same time. 
  
-For the prunning, we did not take the idea of the paper [1]. Instead, we just implemented reachable vertices from start positions to end postions, so that we can constrain the unreacheable verticies. Interestingly, some given instances are solved slower with the pruning than without. That propably relates to the additional overhead, which is generated even if there is no advantage to it.
+For the prunning, we did not take the idea of the paper [1]. Instead, we just implemented reachable vertices from start positions to end postions, so that we can constrain the unreacheable verticies. Interestingly, some given instances are solved slower with the pruning than without. That propably relates to the additional overhead, which is generated even if there is no advantage to it (Figure 1).
 
 ![](evaluation/comparison.png)
+*Figure 1. Performance of the solver with and without pruning in different instances*
 
 _Generated via the codings in the evaluation folder._
 
