@@ -1,12 +1,12 @@
 ,File,Normal Total,Normal Solve,Normal Unsat,Normal CPU,Pruning Total,Pruning Solve,Pruning Unsat,Pruning CPU
-0,instances/room_s10_a30_w5.lp,,,,,,,,
-1,instances/test_s5_a2_detour.lp,0.014,0.001,0,0.014,0.017,0.001,0,0.016
+0,instances/room_s10_a30_w5.lp,1282.562,1275.916,0,1274.068,492.911,485.958,0,491.025
+1,instances/test_s5_a2_detour.lp,0.016,0.001,0,0.014,0.016,0.001,0,0.016
 2,instances/test_s5_a2_exchange(hard).lp,,,,,,,,
-3,instances/random_s10_a15_c50.lp,,,,,,,,
-4,instances/room_s10_a15_w1.lp,,,,,,,,
-5,instances/test_s4x2_a6_exchange.lp,0.005,0,0,0.005,,,,
-6,instances/random_s10_a20_c55.lp,,,,,,,,
-7,instances/test_s5_a2_square.lp,0.014,0,0,0.014,,,,
-8,instances/test_s5_a1_smol.lp,0.003,0,0,0.003,,,,
-9,instances/maze_s10_a25.lp,,,,,,,,
-10,instances/maze_s10_a30.lp,,,,,,,,
+3,instances/random_s10_a15_c50.lp,42.105,39.454,39.454,41.946,43.976,40.925,40.925,43.821
+4,instances/room_s10_a15_w1.lp,20.328,19.119,0,20.245,36.818,35.416,0,36.657
+5,instances/test_s4x2_a6_exchange.lp,0.006,0,0,0.005,0.005,0,0,0.005
+6,instances/random_s10_a20_c55.lp,60.475,58.022,0,60.221,78.478,75.666,0,78.187
+7,instances/test_s5_a2_square.lp,0.022,0,0,0.02,0.023,0.001,0,0.023
+8,instances/test_s5_a1_smol.lp,0.004,0,0,0.002,0.003,0,0,0.003
+9,instances/maze_s10_a25.lp,6683.192,6632.027,0,6665.157,4716.145,4664.681,0,4702.812
+10,instances/maze_s10_a30.lp,7111.715,7056.782,0,7092.914,,,,
