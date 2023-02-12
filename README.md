@@ -15,6 +15,8 @@ For the prunning, we did not take the idea of the paper [1]. Instead, we just im
 
 _Generated via the codings in the evaluation folder._
 
+There is just one given instance, which is 'maze_s10_a30.lp' that our encoding did not solve within a time limit of three hours. But that only means the pruning-encoding. Our normal one did solve it in around two hours.
+
 ### Usages
 The encodings can be found in the folder encodings and are used with the instances in the following way:
 ```
