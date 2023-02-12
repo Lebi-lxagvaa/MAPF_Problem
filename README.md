@@ -11,8 +11,9 @@ Our encoding was based on the paper [1], which we discussed in the seminar. All 
  
 For the prunning, we did not take the idea of the paper [1]. Instead, we just implemented reachable vertices from start positions to end postions, so that we can constrain the unreacheable verticies. Interestingly, some given instances are solved slower with the pruning than without. That propably relates to the additional overhead, which is generated even if there is no advantage to it (Figure 1).
 
-![](evaluation/comparison.png)
-_Figure 1. Performance of the solver with and without pruning in different instances (Generated via the codings in the evaluation folder)._
+|![](evaluation/comparison.png)|
+|:--:|
+|_Figure 1. Performance of the solver with and without pruning in different instances (Generated via the codings in the evaluation folder)._|
 
 There is just one given instance, which is 'maze_s10_a30.lp' that our encoding did not solve within a time limit of three hours. But that only means the pruning-encoding. Our normal one did solve it in around two hours.
 
